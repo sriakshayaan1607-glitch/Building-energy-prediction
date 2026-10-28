@@ -8,7 +8,7 @@ import streamlit as st
 import tensorflow as tf
 
 BASE = Path(__file__).resolve().parent
-DATA_FILE = BASE / "data" / "cooling load dataset.xlsx"
+DATA_FILE = BASE / "cooling load dataset.xlsx"
 MODEL_FILE = BASE / "advanced_results" / "Deep_ANN.keras"
 SCALER_FILE = BASE / "advanced_results" / "advanced_scaler.pkl"
 
